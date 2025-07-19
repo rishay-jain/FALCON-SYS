@@ -1,7 +1,10 @@
-# ROS build, install, and log folders
-/build/
-/install/
-/log/
+# Ignore build and install folders inside ros_ws
+ros_ws/build/
+ros_ws/install/
+
+# Also ignore ros_ws/log (since you have logs there)
+ros_ws/log/
+
 
 # Python cache files
 __pycache__/
