@@ -1,3 +1,0 @@
-[console_scripts]
-talker = simple_talker.simple_talker:main
-
