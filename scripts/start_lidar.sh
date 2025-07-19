@@ -29,3 +29,6 @@ else
 fi
 
 echo "=== LIDAR startup script completed at $(date) ==="
+
+# Wait indefinitely so script doesn't exit and service stays active
+wait
