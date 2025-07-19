@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.002474] (simple_talker) JobQueued: {'identifier': 'simple_talker', 'dependencies': OrderedDict()}
+[0.004587] (simple_talker) JobStarted: {'identifier': 'simple_talker'}
+[0.172291] (-) TimerEvent: {}
+[0.276867] (-) TimerEvent: {}
+[0.378335] (-) TimerEvent: {}
+[0.479747] (-) TimerEvent: {}
+[0.581304] (-) TimerEvent: {}
+[0.683028] (-) TimerEvent: {}
+[0.784574] (-) TimerEvent: {}
+[0.886085] (-) TimerEvent: {}
+[0.987987] (-) TimerEvent: {}
+[1.089605] (-) TimerEvent: {}
+[1.191071] (-) TimerEvent: {}
+[1.292394] (-) TimerEvent: {}
+[1.393785] (-) TimerEvent: {}
+[1.495334] (-) TimerEvent: {}
+[1.597451] (-) TimerEvent: {}
+[1.700833] (-) TimerEvent: {}
+[1.802425] (-) TimerEvent: {}
+[1.904020] (-) TimerEvent: {}
+[2.005521] (-) TimerEvent: {}
+[2.106915] (-) TimerEvent: {}
+[2.208449] (-) TimerEvent: {}
+[2.309992] (-) TimerEvent: {}
+[2.411392] (-) TimerEvent: {}
+[2.513238] (-) TimerEvent: {}
+[2.614799] (-) TimerEvent: {}
+[2.716672] (-) TimerEvent: {}
+[2.818332] (-) TimerEvent: {}
+[2.919821] (-) TimerEvent: {}
+[3.021491] (-) TimerEvent: {}
+[3.123323] (-) TimerEvent: {}
+[3.225470] (-) TimerEvent: {}
+[3.326980] (-) TimerEvent: {}
+[3.428460] (-) TimerEvent: {}
+[3.529807] (-) TimerEvent: {}
+[3.631343] (-) TimerEvent: {}
+[3.732780] (-) TimerEvent: {}
+[3.834435] (-) TimerEvent: {}
+[3.935933] (-) TimerEvent: {}
+[4.037376] (-) TimerEvent: {}
+[4.138871] (-) TimerEvent: {}
+[4.240242] (-) TimerEvent: {}
+[4.341775] (-) TimerEvent: {}
+[4.443375] (-) TimerEvent: {}
+[4.544795] (-) TimerEvent: {}
+[4.646368] (-) TimerEvent: {}
+[4.748095] (-) TimerEvent: {}
+[4.849523] (-) TimerEvent: {}
+[4.951060] (-) TimerEvent: {}
+[5.052498] (-) TimerEvent: {}
+[5.153968] (-) TimerEvent: {}
+[5.255365] (-) TimerEvent: {}
+[5.356681] (-) TimerEvent: {}
+[5.458084] (-) TimerEvent: {}
+[5.559596] (-) TimerEvent: {}
+[5.661274] (-) TimerEvent: {}
+[5.762906] (-) TimerEvent: {}
+[5.864369] (-) TimerEvent: {}
+[5.965836] (-) TimerEvent: {}
+[6.067308] (-) TimerEvent: {}
+[6.169271] (-) TimerEvent: {}
+[6.270767] (-) TimerEvent: {}
+[6.372286] (-) TimerEvent: {}
+[6.474233] (-) TimerEvent: {}
+[6.576209] (-) TimerEvent: {}
+[6.679483] (-) TimerEvent: {}
+[6.741859] (simple_talker) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/simple_talker', 'build', '--build-base', '/home/falcon/FALCON-SYS/ros_ws/build/simple_talker/build', 'install', '--record', '/home/falcon/FALCON-SYS/ros_ws/build/simple_talker/install.log', '--single-version-externally-managed'], 'cwd': '/home/falcon/FALCON-SYS/ros_ws/src/simple_talker', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'falcon', 'SSH_CLIENT': '192.168.1.50 49823 22', 'SSH_AGENT_PID': '3543', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/falcon/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/falcon', 'OLDPWD': '/home/falcon/FALCON-SYS/ros_ws', 'TERM_PROGRAM_VERSION': '1.100.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-c00808f8-b1cd-49cb-a9ad-60663ad14e98.sock', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/falcon/FALCON-SYS/ros_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'falcon', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/falcon/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXGzsRtT/agent.3542', 'AMENT_PREFIX_PATH': '/home/falcon/FALCON-SYS/ros_ws/install/simple_talker:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/falcon/FALCON-SYS/ros_ws/build/simple_talker', 'SSH_CONNECTION': '192.168.1.50 49823 192.168.1.51 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/falcon/FALCON-SYS/ros_ws/build/simple_talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/falcon/FALCON-SYS/ros_ws/install/simple_talker/lib/python3.10/site-packages:/home/falcon/FALCON-SYS/ros_ws/install/simple_talker/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[6.779784] (-) TimerEvent: {}
+[6.881449] (-) TimerEvent: {}
+[6.983063] (-) TimerEvent: {}
+[7.084489] (-) TimerEvent: {}
+[7.185963] (-) TimerEvent: {}
+[7.287346] (-) TimerEvent: {}
+[7.389260] (-) TimerEvent: {}
+[7.491123] (-) TimerEvent: {}
+[7.592643] (-) TimerEvent: {}
+[7.694319] (-) TimerEvent: {}
+[7.795718] (-) TimerEvent: {}
+[7.897054] (-) TimerEvent: {}
+[7.998725] (-) TimerEvent: {}
+[8.100109] (-) TimerEvent: {}
+[8.201632] (-) TimerEvent: {}
+[8.303002] (-) TimerEvent: {}
+[8.405033] (-) TimerEvent: {}
+[8.506663] (-) TimerEvent: {}
+[8.608088] (-) TimerEvent: {}
+[8.709527] (-) TimerEvent: {}
+[8.811105] (-) TimerEvent: {}
+[8.912582] (-) TimerEvent: {}
+[9.014200] (-) TimerEvent: {}
+[9.115683] (-) TimerEvent: {}
+[9.217125] (-) TimerEvent: {}
+[9.258886] (simple_talker) StdoutLine: {'line': b'running egg_info\n'}
+[9.265342] (simple_talker) StdoutLine: {'line': b'writing ../../build/simple_talker/simple_talker.egg-info/PKG-INFO\n'}
+[9.268145] (simple_talker) StdoutLine: {'line': b'writing dependency_links to ../../build/simple_talker/simple_talker.egg-info/dependency_links.txt\n'}
+[9.270344] (simple_talker) StdoutLine: {'line': b'writing entry points to ../../build/simple_talker/simple_talker.egg-info/entry_points.txt\n'}
+[9.273061] (simple_talker) StdoutLine: {'line': b'writing requirements to ../../build/simple_talker/simple_talker.egg-info/requires.txt\n'}
+[9.275360] (simple_talker) StdoutLine: {'line': b'writing top-level names to ../../build/simple_talker/simple_talker.egg-info/top_level.txt\n'}
+[9.291623] (simple_talker) StdoutLine: {'line': b"reading manifest file '../../build/simple_talker/simple_talker.egg-info/SOURCES.txt'\n"}
+[9.302717] (simple_talker) StdoutLine: {'line': b"writing manifest file '../../build/simple_talker/simple_talker.egg-info/SOURCES.txt'\n"}
+[9.304645] (simple_talker) StdoutLine: {'line': b'running build\n'}
+[9.305784] (simple_talker) StdoutLine: {'line': b'running build_py\n'}
+[9.307768] (simple_talker) StdoutLine: {'line': b'copying simple_talker/simple_talker.py -> /home/falcon/FALCON-SYS/ros_ws/build/simple_talker/build/lib/simple_talker\n'}
+[9.309889] (simple_talker) StdoutLine: {'line': b'running install\n'}
+[9.313547] (simple_talker) StdoutLine: {'line': b'running install_lib\n'}
+[9.317388] (-) TimerEvent: {}
+[9.322876] (simple_talker) StdoutLine: {'line': b'copying /home/falcon/FALCON-SYS/ros_ws/build/simple_talker/build/lib/simple_talker/simple_talker.py -> /home/falcon/FALCON-SYS/ros_ws/install/simple_talker/lib/python3.10/site-packages/simple_talker\n'}
+[9.329162] (simple_talker) StdoutLine: {'line': b'byte-compiling /home/falcon/FALCON-SYS/ros_ws/install/simple_talker/lib/python3.10/site-packages/simple_talker/simple_talker.py to simple_talker.cpython-310.pyc\n'}
+[9.333606] (simple_talker) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.349428] (simple_talker) StdoutLine: {'line': b"removing '/home/falcon/FALCON-SYS/ros_ws/install/simple_talker/lib/python3.10/site-packages/simple_talker-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.353393] (simple_talker) StdoutLine: {'line': b'Copying ../../build/simple_talker/simple_talker.egg-info to /home/falcon/FALCON-SYS/ros_ws/install/simple_talker/lib/python3.10/site-packages/simple_talker-0.0.0-py3.10.egg-info\n'}
+[9.367276] (simple_talker) StdoutLine: {'line': b'running install_scripts\n'}
+[9.417712] (-) TimerEvent: {}
+[9.519296] (-) TimerEvent: {}
+[9.562926] (simple_talker) StdoutLine: {'line': b'Installing talker script to /home/falcon/FALCON-SYS/ros_ws/install/simple_talker/lib/simple_talker\n'}
+[9.566505] (simple_talker) StdoutLine: {'line': b"writing list of installed files to '/home/falcon/FALCON-SYS/ros_ws/build/simple_talker/install.log'\n"}
+[9.619624] (-) TimerEvent: {}
+[9.721425] (-) TimerEvent: {}
+[9.823239] (-) TimerEvent: {}
+[9.856829] (simple_talker) CommandEnded: {'returncode': 0}
+[9.923531] (-) TimerEvent: {}
+[9.976516] (simple_talker) JobEnded: {'identifier': 'simple_talker', 'rc': 0}
+[9.983675] (-) EventReactorShutdown: {}

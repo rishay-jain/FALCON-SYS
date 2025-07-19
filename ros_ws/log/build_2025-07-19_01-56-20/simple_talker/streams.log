@@ -1,0 +1,33 @@
+[7.820s] Invoking command in '/home/falcon/FALCON-SYS/ros_ws/src/simple_talker': PYTHONPATH=/home/falcon/FALCON-SYS/ros_ws/build/simple_talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/falcon/FALCON-SYS/ros_ws/install/simple_talker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_talker build --build-base /home/falcon/FALCON-SYS/ros_ws/build/simple_talker/build install --record /home/falcon/FALCON-SYS/ros_ws/build/simple_talker/install.log --single-version-externally-managed install_data
+[10.391s] running egg_info
+[10.396s] creating ../../build/simple_talker/simple_talker.egg-info
+[10.398s] writing ../../build/simple_talker/simple_talker.egg-info/PKG-INFO
+[10.401s] writing dependency_links to ../../build/simple_talker/simple_talker.egg-info/dependency_links.txt
+[10.404s] writing entry points to ../../build/simple_talker/simple_talker.egg-info/entry_points.txt
+[10.405s] writing requirements to ../../build/simple_talker/simple_talker.egg-info/requires.txt
+[10.407s] writing top-level names to ../../build/simple_talker/simple_talker.egg-info/top_level.txt
+[10.409s] writing manifest file '../../build/simple_talker/simple_talker.egg-info/SOURCES.txt'
+[10.424s] reading manifest file '../../build/simple_talker/simple_talker.egg-info/SOURCES.txt'
+[10.432s] writing manifest file '../../build/simple_talker/simple_talker.egg-info/SOURCES.txt'
+[10.434s] running build
+[10.437s] running build_py
+[10.439s] creating /home/falcon/FALCON-SYS/ros_ws/build/simple_talker/build
+[10.441s] creating /home/falcon/FALCON-SYS/ros_ws/build/simple_talker/build/lib
+[10.442s] creating /home/falcon/FALCON-SYS/ros_ws/build/simple_talker/build/lib/simple_talker
+[10.445s] copying simple_talker/__init__.py -> /home/falcon/FALCON-SYS/ros_ws/build/simple_talker/build/lib/simple_talker
+[10.447s] running install
+[10.449s] running install_lib
+[10.456s] creating /home/falcon/FALCON-SYS/ros_ws/install/simple_talker/lib/python3.10/site-packages/simple_talker
+[10.457s] copying /home/falcon/FALCON-SYS/ros_ws/build/simple_talker/build/lib/simple_talker/__init__.py -> /home/falcon/FALCON-SYS/ros_ws/install/simple_talker/lib/python3.10/site-packages/simple_talker
+[10.463s] byte-compiling /home/falcon/FALCON-SYS/ros_ws/install/simple_talker/lib/python3.10/site-packages/simple_talker/__init__.py to __init__.cpython-310.pyc
+[10.466s] running install_data
+[10.467s] creating /home/falcon/FALCON-SYS/ros_ws/install/simple_talker/share/ament_index
+[10.469s] creating /home/falcon/FALCON-SYS/ros_ws/install/simple_talker/share/ament_index/resource_index
+[10.471s] creating /home/falcon/FALCON-SYS/ros_ws/install/simple_talker/share/ament_index/resource_index/packages
+[10.472s] copying resource/simple_talker -> /home/falcon/FALCON-SYS/ros_ws/install/simple_talker/share/ament_index/resource_index/packages
+[10.473s] copying package.xml -> /home/falcon/FALCON-SYS/ros_ws/install/simple_talker/share/simple_talker
+[10.475s] running install_egg_info
+[10.491s] Copying ../../build/simple_talker/simple_talker.egg-info to /home/falcon/FALCON-SYS/ros_ws/install/simple_talker/lib/python3.10/site-packages/simple_talker-0.0.0-py3.10.egg-info
+[10.504s] running install_scripts
+[10.706s] writing list of installed files to '/home/falcon/FALCON-SYS/ros_ws/build/simple_talker/install.log'
+[10.996s] Invoked command in '/home/falcon/FALCON-SYS/ros_ws/src/simple_talker' returned '0': PYTHONPATH=/home/falcon/FALCON-SYS/ros_ws/build/simple_talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/falcon/FALCON-SYS/ros_ws/install/simple_talker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_talker build --build-base /home/falcon/FALCON-SYS/ros_ws/build/simple_talker/build install --record /home/falcon/FALCON-SYS/ros_ws/build/simple_talker/install.log --single-version-externally-managed install_data

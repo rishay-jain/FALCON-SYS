@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/simple_talker/simple_talker.egg-info/PKG-INFO
+writing dependency_links to ../../build/simple_talker/simple_talker.egg-info/dependency_links.txt
+writing entry points to ../../build/simple_talker/simple_talker.egg-info/entry_points.txt
+writing requirements to ../../build/simple_talker/simple_talker.egg-info/requires.txt
+writing top-level names to ../../build/simple_talker/simple_talker.egg-info/top_level.txt
+reading manifest file '../../build/simple_talker/simple_talker.egg-info/SOURCES.txt'
+writing manifest file '../../build/simple_talker/simple_talker.egg-info/SOURCES.txt'
+running build
+running build_py
+copying simple_talker/simple_talker.py -> /home/falcon/FALCON-SYS/ros_ws/build/simple_talker/build/lib/simple_talker
+running install
+running install_lib
+copying /home/falcon/FALCON-SYS/ros_ws/build/simple_talker/build/lib/simple_talker/simple_talker.py -> /home/falcon/FALCON-SYS/ros_ws/install/simple_talker/lib/python3.10/site-packages/simple_talker
+byte-compiling /home/falcon/FALCON-SYS/ros_ws/install/simple_talker/lib/python3.10/site-packages/simple_talker/simple_talker.py to simple_talker.cpython-310.pyc
+running install_egg_info
+removing '/home/falcon/FALCON-SYS/ros_ws/install/simple_talker/lib/python3.10/site-packages/simple_talker-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/simple_talker/simple_talker.egg-info to /home/falcon/FALCON-SYS/ros_ws/install/simple_talker/lib/python3.10/site-packages/simple_talker-0.0.0-py3.10.egg-info
+running install_scripts
+Installing talker script to /home/falcon/FALCON-SYS/ros_ws/install/simple_talker/lib/simple_talker
+writing list of installed files to '/home/falcon/FALCON-SYS/ros_ws/build/simple_talker/install.log'
