@@ -1,0 +1,24 @@
+# ROS build, install, and log folders
+/build/
+/install/
+/log/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Backup files and editor temp files
+*~
+*.swp
+*.swo
+
+# VSCode settings (if you want to ignore)
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Any local environment or config files you don't want to share
+*.env
+*.local
